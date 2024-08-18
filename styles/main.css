@@ -1,0 +1,144 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8%;
+  justify-content: center;
+  align-items: center;
+  width: 88%;
+  min-height: 800px;
+  margin-left: 6%;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.top-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: SilkaMono;
+  font-size: 1.062vw;
+  width: 20%;
+  margin-left: 5%;
+}
+
+.detail1 {
+  margin-bottom: 10%;
+}
+
+.detail2 {
+  font-size: 0.767vw;
+}
+
+.top-title {
+  font-family: Saint;
+  font-size: 9.44vw;
+}
+
+.font-title-trap {
+  font-family: Trap-Medium;
+  font-size: 9.44vw;
+}
+
+.main-divider {
+  border: 0.1vw solid;
+  width: 120%;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.bottom-title {
+  font-family: Shrimp;
+  font-size: 9.44vw;
+}
+
+.brackets {
+  font-family: Arial;
+}
+
+.bottom-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+  align-content: end;
+  font-family: SilkaMono;
+  font-size: 1.062vw;
+  width: 20%;
+}
+
+.dot-line {
+  margin-top: 6%;
+  margin-bottom: 1%;
+}
+
+.dot {
+  font-family: SilkaMono;
+  font-size: 1vw;
+}
+
+.scroll-down {
+  font-family: SilkaMono;
+  font-size: 0.8vw;
+}
+
+/*
+@media (max-width: 700px) {
+  #remove-top-detail { display: none; }
+}*/
+
+@media (max-width: 800px) {
+  .top-title, .bottom-title, .font-title-trap{
+    font-size: 14.5vw;
+  }
+
+  .bottom-detail {
+    margin-left: 30%;
+    margin-top: 20%;
+    font-size: 5vw;
+    width: 200%;
+  }
+
+  .top-detail {
+    margin-left: 10%;
+    margin-bottom: 20%;
+    margin-top: 17%;
+    font-size: 5vw;
+    width: 60%;
+  }
+
+  .detail2 {
+    font-size: 3vw;
+  }
+
+  .top-section, .bottom-section {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .dot {
+    font-size: 2vw;
+  }
+
+  .scroll-down {
+    margin-top: 5%;
+    font-size: 2vw;
+  }
+
+  .main-divider {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .dot-line {
+    margin-top: 20%;
+  }
+
+}

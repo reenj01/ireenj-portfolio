@@ -1,0 +1,59 @@
+.wrapper-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 88%;
+  min-height: 50px;
+  margin-left: 6%;
+  margin-top: -5%;
+  margin-bottom: -4%;
+}
+
+.contact-star {
+  width: 5%;
+}
+
+.title-contact {
+  font-size: 6.5vw;
+  font-family: Shrimp;
+}
+
+.insta-button {
+  width: 5vw; 
+  height: 5vw;
+  background-image: url('/imgs/icon-insta-bl.png'); 
+  background-size: contain; 
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.15s ease-in;
+}
+
+.insta-button:hover {
+  background-image: url('/imgs/icon-insta-p.png'); 
+}
+
+.email-button {
+  width: 5vw; 
+  height: 5vw; 
+  background-image: url('/imgs/icon-email-bl.png'); 
+  background-size: contain; 
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.15s ease-in;
+}
+
+.email-button:hover {
+  background-image: url('/imgs/icon-email-p.png'); 
+}
+
+@media (max-width: 800px) {
+  .wrapper-contact {
+    padding-top: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

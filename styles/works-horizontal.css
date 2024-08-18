@@ -1,0 +1,28 @@
+.right-img-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 45%;
+}
+
+.img-horizontal {
+  width: 90%;
+  border-radius: 2vw;
+}
+
+@media (max-width: 800px) {
+
+  .img-horizontal {
+    width: 100%;
+    width: 40%;
+  }
+
+  .right-img-horizontal {
+    width: 200%;
+  }
+
+  .left-text {
+    margin-left: 0;
+  }
+  
+}

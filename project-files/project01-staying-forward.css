@@ -1,0 +1,424 @@
+.top {
+  display: flex;
+  position: relative;
+  top: 0;
+}
+
+/* Header */
+
+.header-to-main {
+  position: fixed;
+  font-family: Trap-Black;
+  background-color: transparent;
+  border: none;
+  left: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.image-container {
+  width: 4vw; 
+  height: 3.9vw; 
+  background-image: url('/imgs/back-arrow.png'); 
+  background-size: contain; 
+}
+
+.image-container:hover {
+  background-image: url('/imgs/bl-back-arrow.png'); 
+}
+/* Back to Main */
+
+/* Divider */
+
+.divider-top {
+  display: flex;
+  position: relative;
+  border: 1px solid;
+  top: 6.5vw;
+  width: 1710px;
+  left: -10px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+/* Title */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /*background-color: lightyellow;*/
+  top: 8vw;
+  left: 6%;
+  width: 88%;
+}
+
+.title-container {
+  /*background-color: lightblue;*/
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 1vw;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.title {
+  font-family: Shrimp;
+  font-size: 3.54vw;
+}
+
+.subtitle-container {
+  /*background-color: lightpink;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 40%;
+}
+
+.subtitle {
+  font-family: SilkaMono;
+  font-size: 1.062vw;
+  border: 0.06vw solid;
+  padding: 2% 4%;
+  border-radius: 30vw;
+  margin-left: 2%;
+}
+
+/* IMG */
+
+.main-container {
+  /*background-color: aquamarine;*/
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.st1-1 {
+  width: 31%;
+  position: relative;
+  top: -5vw;
+}
+
+.st1-2 {
+  width: 31%;
+}
+
+.st1-3 {
+  width: 31%;
+  position: relative;
+  top: -5vw;
+}
+
+.img-container2-left {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 8%;
+  justify-content: space-between;
+}
+
+.st2-1 {
+  width: 60%;
+}
+
+.img-container2-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.img-horizontal2 {
+  width: 80%;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9%;
+}
+
+.left-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.st3 {
+  width: 41%;
+  margin-left: 100px;
+  
+}
+
+.star {
+  width: 10%;
+}
+
+.star2 {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 88%;
+}
+
+.text {
+  font-family: Trap-Regular;
+  font-size: 1.04vw;
+  line-height: 2.2vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 97%;
+}
+
+/* Process
+
+.process-container {
+  background-color: aquamarine;
+}
+
+.process1 {
+  width: 400px;
+}
+
+.research {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  background-color: bisque;
+} 
+
+*/
+
+.process-title {
+  font-family: Shrimp; 
+  font-size: 3.54vw;
+  margin-bottom: 5%;
+}
+
+.process {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.process-img1 {
+  width: 60%;
+}
+
+.process-img2 {
+  width: 40%;
+}
+
+.description-laser {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: end;
+  align-items: center;
+  font-family: SilkaMono;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.description-ai {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  font-family: SilkaMono;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.ai-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.ai1 {
+  width: 40%;
+  margin-right: 2%;
+}
+
+.ai2 {
+  width: 15%;
+  margin-right: 2%;
+}
+
+.ai3 {
+  width: 40%;
+}
+
+.process-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+
+.process-img3 {
+  width: 45%;
+}
+
+.process-img4 {
+  width: 45%;
+}
+
+.dot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: SilkaMono;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dots {
+  position: relative;
+  justify-content: center;
+}
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.back-to-top-button {
+  font-family: SilkaMono;
+  font-size: 13px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-top-button:hover {
+  color: #ab58d9;
+}
+
+@media (max-width: 800px) {
+
+  .image-container{
+    width: 8vw;
+    height: 7.9vw;
+  }
+
+  .divider-top {
+    top: 13vw;
+  }
+
+  .box {
+    top: 14vw;
+  }
+
+  .title {
+    font-size: 6vw;
+  }
+
+  .title-container {
+    flex-direction: column;
+  }
+
+  .subtitle-container {
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  .subtitle {
+    font-size: 2vw;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .main-container {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .st1-1, .st1-2, .st1-3 {
+    top: 0;
+    width: 70vw;
+    margin-bottom: 10%;
+  }
+
+  .img-container2-left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .st2-1 {
+    width: 70vw;
+    margin-bottom: 13%;
+  }
+
+  .img-container2-right {
+    align-items: center;
+  }
+
+  .img-horizontal2 {
+    width: 70vw;
+    margin-bottom: 15%;
+  }
+
+  .container3 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .left-text-container {
+    width: 100%;
+  }
+
+  .text {
+    font-size: 2.5vw;
+    line-height: 4.5vw;
+    text-align: center;
+    width: 95%;
+    margin-left: 2%;
+  }
+
+  .st3 {
+    width: 70vw;
+    margin-left: 0;
+    margin-bottom: 30%;
+  }
+
+  .process-title {
+    font-size: 7vw;
+    margin-top: 20%;
+  }
+
+  .process {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .process-img1 {
+    width: 100%;
+    margin-bottom: 9%;
+    margin-top: 5%;
+  }
+
+  .process-img2 {
+    width: 50%;
+  }
+
+  .description-laser {
+    margin-right: -3.1%;
+    margin-bottom: 7%;
+  }
+
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TEST</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/aboutme.css">
+    <link rel="stylesheet" href="styles/works.css">
+    <link rel="stylesheet" href="styles/works-horizontal.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/support.css">
+
+    <style>
+      @font-face {
+      font-family: "Shrimp";
+      src: url(fonts/Shrimp.ttf) format('truetype');
+
+      font-family: "Saint-Regular";
+      src: url(fonts/Saint-Regular.ttf) format('truetype');
+
+      font-family: "Trap-Black";
+      src: url(fonts/Trap-Black.otf) format('opentype');
+
+      font-family: "Trap-Regular";
+      src: url(fonts/Trap-Regular.otf) format('opentype');
+
+      font-family: "Trap-Medium";
+      src: url(fonts/Trap-Medium.otf) format('opentype');
+
+      font-family: "SilkaMono";
+      src: url(fonts/SilkaMono.otf) format('opentype');
+      
+    }
+    </style>
+  </head>
+  <body style="
+    overflow-x: hidden;
+  ">
+    <!--Main Header-->
+
+    <div class="header-container">
+      <div class="header-left-section">
+        <a href="ireenj-portfolio.html">
+          <button class="name-button">ireenj<span style="color: #ab58ab">_</span>0</button>
+        </a>
+      </div>
+
+      <div class="header-right-section">
+        <img class="star-header" src="/imgs/star.png">
+        <a id="link" href="#about">
+          <button class="header-button">About</button>
+        </a>
+        <a id="link" href="#works">
+          <button class="header-button">Works</button>
+        </a>
+        <a id="link" href="#contact">
+          <button class="header-button">Contact</button>
+        </a>
+      </div>
+    </div>
+
+    <!--Main Page-->
+    <div class="wrapper">
+      <div class="top-section">
+        <div id="remove-top-detail" class="top-detail">
+          <div class="detail1">Welcome to my portfolio!</div>
+          <div class="detail2">ver. 2024</div>
+        </div>
+        <div class="top-title">
+          <div>D<span class="font-title-trap">ESI</span>gn<span class="font-title-trap">E</span>r</div>
+        </div>
+      </div>
+
+      <div class="main-divider"></div>
+
+      <div class="bottom-section">
+        <div class="bottom-title">
+          <span class="brackets">[</span>Developer<span class="brackets">]</span>
+        </div>
+        <div id="remove-bottom-detail" class="bottom-detail">
+          <div class="detail1">Ireen Jeang</div>
+          <div class="detail2">Based in CA && NY</div>
+        </div>
+      </div>
+
+      <div class="dot-line">
+        <div class="dot">.</div>
+        <div class="dot">.</div>
+        <div class="dot">.</div>
+      </div>
+      <div class="scroll-down"> < scroll down > </div>
+    </div>
+
+    <!--About me Page-->
+    <div id="about" class="divider1"></div>
+
+    <div class="wrapper-about">
+      <img class="me-img" src="/imgs/me2.jpg">
+      <div class="text-section">
+        <div class="star-row">
+          <img class="star" src="/imgs/star.png">
+          <img class="star" src="/imgs/star.png">
+        </div>
+        <div class="about-text">
+          Hello! Ireen Jeang is an artist and coder based in the Bay Area. 
+          She is currently studying <span style="color: #ab58d9;">Design & Technology</span> at <span style="color: #ab58d9;">Parsons School of 
+          Design</span> located in New York.
+        </div>
+        <br>
+        <div class="about-text">Her unwavering passion for designing and creating by hand 
+          combined with her fascination for programming continuously 
+          pushes her to intertwine art and coding in her own unique way.
+        </div>
+        <div class="star-row">
+          <img class="star" src="/imgs/star.png">
+          <img class="star" src="/imgs/star.png">
+        </div>
+      </div>
+    </div>
+
+    <!--Works Page Header-->
+    <div id="works" class="divider2"></div>
+
+    <div class="wrapper-works-header">
+      <div class="works">WORKS</div>
+      <div class="works-dash"></div>
+      <img class="works-star" src="/imgs/star.png">
+    </div>
+
+    <div class="click-for-more-container">
+      <div class="click-text">Click on each project's title to see more!</div>
+      <img class="click-star" src="/imgs/star.png">
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/project01-staying-forward.html">
+          <button class="title">Project 01 Staying Forward</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Digital Fabrication</div>
+          <div class="description">2024</div>
+        </div>
+      </div>
+      <div class="right-img">
+        <img class="img" src="/imgs/staying-forward/staying-forward1.jpg">
+        <img class="img" src="/imgs/staying-forward/staying-forward2.jpg">
+      </div>
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/led-color-illusion.html">
+          <button class="title">LED Color Illusion</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Studio 2</div>
+          <div class="description">2024</div>
+        </div>
+      </div>
+      <div class="right-img-horizontal">
+        <img class="img-horizontal" src="/imgs/led-color-illusion/led1.JPG">
+      </div>
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/slot-stool.html">
+          <button class="title">Slot Stool</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Space & Materiality</div>
+          <div class="description">2024</div>
+        </div>
+      </div>
+      <div class="right-img">
+        <img class="img" src="/imgs/slot-stool/slot-stool1.JPG">
+        <img class="img" src="/imgs/slot-stool/slot-stool2.JPG">
+      </div>
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/perceiving.html">
+          <button class="title">Perceiving</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Studio 2</div>
+          <div class="description">2024</div>
+        </div>
+      </div>
+      <div class="right-img">
+        <img class="img" src="/imgs/perceiving/perceiving.jpg">
+        <img class="img" src="/imgs/perceiving/perceiving2.jpg">
+      </div>
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/mass-module.html">
+          <button class="title">Mass Module</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Space & Materiality</div>
+          <div class="description">2024</div>
+        </div>
+      </div>
+      <div class="right-img">
+        <img class="img" src="/imgs/mass module/mass-module1.jpg">
+        <img class="img" src="/imgs/mass module/mass-module2.jpg">
+      </div>
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/looming-clowns.html">
+          <button class="title">Looming Clowns</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Studio 1</div>
+          <div class="description">2023</div>
+        </div>
+      </div>
+      <div class="right-img-horizontal">
+        <img class="img-horizontal" src="/imgs/looming-clowns/looming-clowns.jpg">
+      </div>
+    </div>
+
+    <div class="wrapper-works">
+      <div class="left-text">
+        <a href="project-files/sounds-of-10003.html">
+          <button class="title">Sounds of 10003</button>
+        </a>
+        <div class="description-container"> 
+          <div class="description">Parsons</div>
+          <div class="description">Time</div>
+          <div class="description">2023</div>
+        </div>
+      </div>
+      <div class="right-img-horizontal">
+        <img class="img-horizontal" src="/imgs/sounds-of-10003/sounds-of-10003-1.jpg">
+      </div>
+    </div>
+
+    <div id="contact" class="divider3"></div>
+
+    <div class="wrapper-contact">
+      <img class="contact-star" src="/imgs/star.png">
+      <p class="title-contact">Contact</p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <a href="https://www.instagram.com/ireenj.obj/" target="_blank">
+        <button class="insta-button"></button>
+      </a>
+      <a href="mailto:jeani508@newschool.edu" target="_blank">
+        <button class="email-button"></button>
+      </a>
+     
+      <img class="contact-star" src="/imgs/star.png">
+    </div>
+
+    <div class="wrapper-support">
+      <div class="left-support">
+        <p class="thanks">Thanks for visiting and browsing my website!</p>
+        <p class="support-desc">If you enjoyed my work, as well as this website, please feel free to
+          leave some stars for me :]</p>
+      </div>
+      <div class="right-support">
+        <img class="star-dog" src="/imgs/star-dog copy.png">
+        <button class="click-me js-button" onclick="
+        addSupport();
+        ">Click Me!</button>
+      </div>
+    </div>
+
+    <div class="dot-line2">
+      <div class="dot">.</div>
+      <div class="dot">.</div>
+      <div class="dot">.</div>
+    </div>
+
+    <div class="scroll-down2"> < This website is designed and coded entirely by me! > </div>
+
+    <script>
+      let count = JSON.parse(localStorage.getItem('count')) || 0;
+
+      document.querySelector('.js-button').addEventListener('click', () => {
+          document.querySelector('.js-button').classList.add('move-support-button');
+        });
+
+      function addSupport() {
+        count++;
+
+        const button = document.querySelector('.js-button');
+        button.innerHTML = `${count}`;
+
+        localStorage.setItem('count', JSON.stringify(count));
+        return count;
+      }
+
+    </script>
+
+  </body>
+</html>
